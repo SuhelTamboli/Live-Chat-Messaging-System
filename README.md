@@ -4,4 +4,4 @@
  # Cloning & Installation <br />
  git clone https://github.com/SuhelTamboli/Live-Chat-Messaging-System.git <br />
  npm install <br />
- npm start <br />
+ npm run dev <br />
