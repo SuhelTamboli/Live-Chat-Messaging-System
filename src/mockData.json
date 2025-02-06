@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "React Developers",
+      "members": ["Alice", "Bob", "Charlie", "Dave"],
+      "messages": [
+        {
+          "id": 1,
+          "sender": "Alice",
+          "text": "Hello everyone!",
+          "timestamp": 1675678382000
+        },
+        {
+          "id": 2,
+          "sender": "Bob",
+          "text": "Hi Alice, how's it going?",
+          "timestamp": 1675678395000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Frontend Engineers",
+      "members": ["Charlie", "Dave", "Eve"],
+      "messages": [
+        {
+          "id": 1,
+          "sender": "Charlie",
+          "text": "Is anyone using Tailwind?",
+          "timestamp": 1675678401000
+        },
+        {
+          "id": 2,
+          "sender": "Dave",
+          "text": "I'm using it, love it!",
+          "timestamp": 1675678410000
+        }
+      ]
+    }
+  ]
+}
