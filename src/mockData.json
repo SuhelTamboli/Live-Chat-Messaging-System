@@ -15,7 +15,7 @@
           "id": 2,
           "sender": "Bob",
           "text": "Hi Alice, how's it going?",
-          "timestamp": 1675678395000
+          "timestamp": 1675688395000
         }
       ]
     },
@@ -28,13 +28,13 @@
           "id": 1,
           "sender": "Charlie",
           "text": "Is anyone using Tailwind?",
-          "timestamp": 1675678401000
+          "timestamp": 1675673401000
         },
         {
           "id": 2,
           "sender": "Dave",
           "text": "I'm using it, love it!",
-          "timestamp": 1675678410000
+          "timestamp": 1675676410000
         }
       ]
     }

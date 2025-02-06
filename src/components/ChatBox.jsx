@@ -28,7 +28,7 @@ const ChatBox = ({ group, onSendMessage }) => {
         {group.messages.map((message) => (
           <>
             {message.sender === "User" ? (
-              <div className="flex flex-col p-1 border border-gray-400 rounded-md mb-0.5">
+              <div className="flex flex-col p-1 border border-gray-400 rounded-md mb-0.5 w-fit absolute right-[15px]">
                 <div key={message.id} className=" flex justify-end">
                   <strong className="pr-1">{message.sender}:</strong>{" "}
                   {message.text}
@@ -39,12 +39,12 @@ const ChatBox = ({ group, onSendMessage }) => {
                 </div>
               </div>
             ) : (
-              <div className="flex flex-col p-1 border border-gray-400 rounded-md mb-0.5">
+              <div className="flex flex-col p-1 border border-gray-400 rounded-md mb-0.5 w-fit">
                 <div key={message.id} className="">
                   <strong className="pr-1">{message.sender}:</strong>{" "}
                   {message.text}
                 </div>
-                <div className="text-sm text-gray-500 ">
+                <div className="text-sm text-gray-500 flex justify-end">
                   {/* Format timestamp to display only time in HH:mm */}
                   {format(new Date(message.timestamp), "HH:mm")}
                 </div>
