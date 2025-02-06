@@ -33,9 +33,8 @@ const ChatBox = ({ group, onSendMessage }) => {
                   <strong className="pr-1">{message.sender}:</strong>{" "}
                   {message.text}
                 </div>
-                <div className="text-sm text-gray-500 flex justify-end">
-                  {/* Format timestamp to display only time in HH:mm */}
-                  {format(new Date(message.timestamp), "HH:mm")}
+                <div className="text-[10px] text-gray-500 flex justify-end">
+                  {format(new Date(message.timestamp), "MMM dd, yyyy HH:mm")}
                 </div>
               </div>
             ) : (
@@ -44,9 +43,8 @@ const ChatBox = ({ group, onSendMessage }) => {
                   <strong className="pr-1">{message.sender}:</strong>{" "}
                   {message.text}
                 </div>
-                <div className="text-sm text-gray-500 flex justify-end">
-                  {/* Format timestamp to display only time in HH:mm */}
-                  {format(new Date(message.timestamp), "HH:mm")}
+                <div className="text-[10px] text-gray-500 flex justify-end">
+                  {format(new Date(message.timestamp), "MMM dd, yyyy HH:mm")}
                 </div>
               </div>
             )}
